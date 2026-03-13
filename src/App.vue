@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>🏸 羽球排場系統 (2x2 + 預備區)</h1>
+    <h1>🏸 羽球排場系統</h1>
 
     <!-- 新增玩家 -->
     <div class="addPlayer">
