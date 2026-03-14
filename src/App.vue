@@ -41,6 +41,7 @@ const levels = [
   { name: "中進", color: "#FF9800" },
   { name: "高階", color: "#FB8C00" },
   { name: "職業", color: "#F57C00" },
+  { name: "X", color: "#FFD4D4" },
 ];
 
 const {

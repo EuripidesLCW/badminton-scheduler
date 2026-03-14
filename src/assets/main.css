@@ -109,6 +109,8 @@ button.danger {
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
+  align-items: center; /* 垂直置中 */
+  justify-content: center; /* 水平置中 */
 }
 
 input,
@@ -136,6 +138,23 @@ select {
   flex-wrap: wrap;
   justify-content: center; /* 水平置中 */
   align-items: center; /* 垂直置中 */
+}
+
+.batch-import {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.batch-import textarea {
+  width: 100%;
+  min-height: 120px;
+  border-radius: 8px;
+  border: 1px solid #e7cfc3;
+  padding: 8px;
+  font-family: monospace;
+  resize: vertical;
 }
 
 @media (max-width: 600px) {
