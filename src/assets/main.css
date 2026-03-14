@@ -149,12 +149,13 @@ select {
 
 .batch-import textarea {
   width: 100%;
-  min-height: 120px;
+  min-height: 150px;
   border-radius: 8px;
   border: 1px solid #e7cfc3;
   padding: 8px;
   font-family: monospace;
   resize: vertical;
+  box-sizing: border-box;
 }
 
 @media (max-width: 600px) {

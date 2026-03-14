@@ -15,8 +15,6 @@
 
     <!-- 批次新增 -->
     <div class="batch-import">
-      <h3>批次載入</h3>
-
       <textarea
         v-model="batchText"
         placeholder="
